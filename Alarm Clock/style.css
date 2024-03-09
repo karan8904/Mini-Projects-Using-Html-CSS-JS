@@ -1,0 +1,80 @@
+body{
+    background: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgb(255, 245, 245);
+    height: 500px;
+    width: 650px;
+    border: 2px solid black;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+}
+
+.normalTime{
+    margin-top: 30px;
+}
+
+.disabled{
+     opacity: 0.6;
+     pointer-events: none;
+     cursor: no-drop;
+}
+
+.alarmTime select{
+    margin-top: 20px;
+    margin-right: 12px;
+    margin-left: 12px;
+    width: 125px;
+    height: 30px;
+    font-size: 1.2rem;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.btn{
+    margin-top: 50px;
+}
+
+.setAlarmBtn{
+    width: 600px;
+    height: 50px;
+    background: rgb(37, 132, 255);
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+@media only screen and (min-width : 300px) and (max-width : 800px){
+    .container{
+        width: 275px;
+    }
+
+    img{
+        height: 122px;
+        width: 122px;
+    }
+
+    .alarmTime select{
+        width: 63px;
+        height: 30px;
+        font-size: 0.9rem;
+    }
+
+    .setAlarmBtn{
+        width: 200px;
+        height: 50px;
+    }
+}
