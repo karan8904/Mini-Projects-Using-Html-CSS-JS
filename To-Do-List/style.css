@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background: url('bg.jpg');
+    background-size: cover;
+}
+
+.header{
+    text-align: center;
+    font-size: 2.7rem;
+    font-family: sans-serif;
+}
+
+.container {
+    /* position: absolute; */
+    /* margin: 30px; */
+    /* transform: translate(-50%, -50%);
+    top: 12%;
+    left: 50%; */
+    height: 100%;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column; 
+}
+
+.addItems {
+    background-color: white;
+    margin: 50px;
+    border-radius: 7px;
+}
+
+.txtbox {
+    height: 35px;
+    width: 500px;
+    margin: 10px;
+    font-size: 1rem;
+    text-align: center;
+    border: none;
+    border-bottom: 3px solid grey;
+}
+
+.btn {
+    border: none;
+    position: relative;
+    float: right;
+    top: 10%;
+    margin: 18px;
+    height: 30px;
+    width: 80px;
+    font-size: 1.2rem;
+    background-color: rgb(44, 130, 249);
+    color: white;
+    transition: all 0.3s;
+}
+
+.btn:hover {
+    background-color: white;
+    border: 3px solid rgb(44, 130, 249);
+    font-size: 1.1rem;
+    color: black;
+}
+
+.display {
+    /* background: white; */
+    width: 630px;
+    border-radius: 7px;
+}
+
+.tasks {
+    font-size: 1.4rem;
+    list-style: none;
+    padding: 20px;
+}
+
+/* .todo-div{
+
+} */
+
+.items {
+    border-bottom: 1px solid grey;
+    padding: 7px 0px;
+}
+
+.dltNote {
+    border: none;
+    position: relative;
+    float: right;
+    top: -35px;
+    height: 30px;
+    width: 30px;
+    margin: 1px;
+    border-radius: 50%;
+    font-size: 1.3rem;
+    background-color: rgb(227, 34, 34);
+    color: white;
+    transition: all 0.3s;
+}
+
+.dltNote:hover {
+    border: none;
+    background-color: white;
+    font-size: 1.2rem;
+    color: black;
+    border: 3px solid red;
+}
